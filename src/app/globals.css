@@ -5,6 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --buttonEdtools: linear-gradient(92.73deg, #3b4045 7.07%, #00db8e 97.81%);
+  --backgroundEdtools: #202428; 
 }
 
 @media (prefers-color-scheme: dark) {
