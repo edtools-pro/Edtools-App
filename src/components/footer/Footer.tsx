@@ -2,8 +2,8 @@ import Image from "next/image"
 
 export const Footer = () => {
     return (
-        <footer className="edtools">
-            <div className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
+        <footer className="edtools bg-teal-900">
+            <div className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24 text-white">
                 <div className="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
                     <a
                         className="inline-block rounded-full bg-teal-600 p-2 text-white shadow transition hover:bg-teal-500 sm:p-3 lg:p-4 dark:bg-gray-700 dark:text-teal-300 dark:hover:bg-gray-600"
@@ -33,7 +33,7 @@ export const Footer = () => {
                         </div>
 
                         <p
-                            className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left dark:text-gray-400"
+                            className="mx-auto mt-6 max-w-md text-center leading-relaxed text-white lg:text-left dark:text-gray-400"
                         >
                            Diagnósticos, evaluaciones, pruebas profesionales con IA
                         </p>
@@ -44,7 +44,7 @@ export const Footer = () => {
                     >
                         <li>
                             <a
-                                className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                                className="text-white transition hover:text-gray-700/75 dark:hover:text-white/75"
                                 href="#"
                             >
                                 About
@@ -53,7 +53,7 @@ export const Footer = () => {
 
                         <li>
                             <a
-                                className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                               className="text-white transition hover:text-gray-700/75 dark:hover:text-white/75"
                                 href="#"
                             >
                             Blog
@@ -62,7 +62,7 @@ export const Footer = () => {
 
                         <li>
                             <a
-                                className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                               className="text-white transition hover:text-gray-700/75 dark:hover:text-white/75"
                                 href="#"
                             >
                                 History
@@ -71,7 +71,7 @@ export const Footer = () => {
                     </ul>
                 </div>
 
-                <p className="mt-12 text-center text-sm text-gray-500 lg:text-right dark:text-gray-400">
+                <p className="mt-12 text-white transition hover:text-gray-700/75 lg:text-right dark:text-gray-400">
                     Copyright &copy; 2024. All rights reserved Edtools.
                 </p>
             </div>
